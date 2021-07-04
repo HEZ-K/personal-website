@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image_one.png);
+    height: 100vh;
+    background-size: cover;
+    font-size: 20px;
+    color: white;
+    /*background-repeat: no-repeat;*/
+    background-position: center;
+}
+header{
+    width: 100%;
+    height: auto;
+}
+#home-link{
+    border: 1px solid white; 
+    text-decoration: none; 
+    padding: 5px 8px; 
+    color: white;
+    margin-left: 20px;
+}
+#transcripts-link{
+    border: 1px solid white; 
+    text-decoration: none; 
+    padding: 5px 8px; 
+    color: white;
+    float: right;
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+    font: 3em sans-serif;
+}
+.sub_title{
+    text-align: center;
+    margin: 35px 15px;
+    padding: 10px 15px;
+    font: 2em sans-serif;
+}
+.sub_title a{
+    color: darkcyan;
+    text-decoration: none;
+}
+table{
+    width: 1000px;
+    background-position: center;
+    margin: auto;
+    height: 400px;
+}
+tr td{
+    width: 600px;
+    font: 1em sans-serif;
+    margin: 50px;
+    padding: 10px 3px;
+}
+#details{
+    margin: 20px 15px;
+    text-align: start;
+    padding: 5px 5px;
+    font-size: 18px;
+}
+#Bio_pic{
+    float: right;
+    width: 350px;
+    height: auto;
+}
+.institution{
+    text-align: center;
+    font: 24px;
+    margin: 30px;
+    float: left;
+}
+#achievement{
+    color: blue;
+    float: left;
+}
+.hobby-list{
+    text-align: center;
+    margin-left: auto;
+}
+.hobby-list li{
+    padding: 7px 10px;
+}
+.referee_prof_pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+#contact_infor{
+    margin: 50px;
+}
+#contact-infor p{
+    padding: 10px 15px;
+}

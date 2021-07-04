@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(DSC_0157.JPG);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ul{
+    font-size: 24px;
+    float: right;
+}
+ul li{
+    display: inline-block;
+    margin: 7px 10px;
+    padding: 3px 5px;
+}
+ul li.active{
+    border: 1px solid white;
+    background-color: orange;
+}
+ul li:hover{
+    background-color: orange;
+    border: 1px solid white;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+form{
+    font-size: 20px;
+    border: 1px solid white;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-family: cursive;
+}
+form input{
+    margin: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 5px 8px;
+}
+.form-input{
+    position: relative;
+    color: black;
+    margin-left: 200px;
+}
+.btn{
+    color: black;
+}
+.signoff small{
+    float: right;
+    margin-right: 20px;
+}
